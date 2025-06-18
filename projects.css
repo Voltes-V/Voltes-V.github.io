@@ -256,7 +256,7 @@ body {
 
 .timeline__content a:hover {
   text-decoration: underline;
-  color: #d14b3b;
+  color: #F4DCB4;
 }
 .timeline__content:hover {
   transform: scale(1.03);
@@ -373,6 +373,14 @@ body {
   .timeline {
     position: relative;
     padding: 0;
+  }
+  a:active {
+    background-color: #d14b3b; /* New highlight/tap color */
+    color: #d14b3b; /* Optional: change link text color on tap */
+  }
+  ::selection {
+    background: #d14b3b;
+    color: #d14b3b;
   }
 
   .timeline::before {
