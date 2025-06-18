@@ -256,7 +256,7 @@ body {
 
 .timeline__content a:hover {
   text-decoration: underline;
-  color: #F4DCB4;
+  color: #d14b3b;
 }
 .timeline__content:hover {
   transform: scale(1.03);
